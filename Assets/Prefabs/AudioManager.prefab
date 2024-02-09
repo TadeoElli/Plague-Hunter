@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6549160638960811599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6549160638960811601}
+  - component: {fileID: 6549160638960811598}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6549160638960811601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549160638960811599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.626125, y: 15.891329, z: -29.486568}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6549160638960811598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6549160638960811599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df171b4d436d4854680e0000f01bd266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterMixerGroup: {fileID: 24300002, guid: e38f9a49de1c6254285faef3028c09e3, type: 2}
+  musicMixerGroup: {fileID: 3407156124769999740, guid: e38f9a49de1c6254285faef3028c09e3, type: 2}
+  sFXMixerGroup: {fileID: 2914027043192746752, guid: e38f9a49de1c6254285faef3028c09e3, type: 2}
+  climateFXMixerGroup: {fileID: -8864851371725747127, guid: e38f9a49de1c6254285faef3028c09e3, type: 2}
+  sounds:
+  - audioType: 1
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 48e6b26bf3f2a2f4ea5e67e9c2810f2e, type: 3}
+    audioClipName: DesolateWorld
+    isLoop: 1
+    playOnAwake: 1
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 123cd921806684e46a2833ec67d67b95, type: 3}
+    audioClipName: PlayerDeath
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 2d843b8d87a2fd14ea4479ecc29a045b, type: 3}
+    audioClipName: PlayerFastSlash
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: cd8ebd858975d544aa2cf8b6e019c57f, type: 3}
+    audioClipName: PlayerStrongSlash
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: ae4eb0c6d9df3464fb587841c3fb77f3, type: 3}
+    audioClipName: PlayerRecieveDamage
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 7e5ccd1fe5ecb7e428fecb5030bdcf26, type: 3}
+    audioClipName: PlayerRoll
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: c25a48efeb637eb478146d15a0e25c7d, type: 3}
+    audioClipName: PlayerWalkingFootsteps
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 3146988d531fb2e4db2a1305b038220b, type: 3}
+    audioClipName: BrakingGlassBottle
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 521615b11f025674c98bb614d2de067a, type: 3}
+    audioClipName: ratSqueak
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: bf833177d770be2418b5f7fa917951e4, type: 3}
+    audioClipName: ratDeath
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 828d2d81b6a90844d8e5764ff68c6b72, type: 3}
+    audioClipName: BruteDeath
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 35bbd52c364b94148ab6cc834010a74f, type: 3}
+    audioClipName: PlantShooting
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 857c055ef8da6cf4b9f61d9875827d4b, type: 3}
+    audioClipName: gasRelease
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 1
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: c7de20e3c9bf8f94db83874c7cc82a4e, type: 3}
+    audioClipName: Darkness
+    isLoop: 1
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: a3e14900303c2dc419d6a4d3be331213, type: 3}
+    audioClipName: KamikazeExplosion
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: e5c8bbd27a01b264694dde94c76fca25, type: 3}
+    audioClipName: ItemPickUp
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 9b52f16bc6eea2d418f2568749f73957, type: 3}
+    audioClipName: TrapFreeze
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 0415fe7310b7f264d963501f880d788c, type: 3}
+    audioClipName: FireThreeSeconds
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 169596fb0d424744f8ec7ca38536d625, type: 3}
+    audioClipName: Explosion
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 91db30e2e46bd63448c79b5bcb0a03ca, type: 3}
+    audioClipName: Drinking
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: ff1df6b2d00bf864b9fe0eff61135352, type: 3}
+    audioClipName: SelectedOrClicked
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 9f9dadc7449c35a468f7e85264c8c19d, type: 3}
+    audioClipName: IncorrectPlace
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 4faaa2e13af7ffa4c871ba92588ad746, type: 3}
+    audioClipName: DiscardItem
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 5815b626933969b49a742bdf6be3c8f4, type: 3}
+    audioClipName: PlaceItem
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1
+  - audioType: 2
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: db1471092e49b7445bfbd374a17ea61a, type: 3}
+    audioClipName: RainHeavy
+    isLoop: 1
+    playOnAwake: 0
+    volume: 1
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: d7d32666f697921468e3246f3665ed0e, type: 3}
+    audioClipName: BruteAttack
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    audioSource: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 17888deae4b3c1a438163dccb3263289, type: 3}
+    audioClipName: WoodBreak
+    isLoop: 0
+    playOnAwake: 0
+    volume: 1

@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: c8208d694a7f22246bd0c754dc9af818
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chimenea
+    100002: chimenea 1
+    100004: Cimiento 1m
+    100006: cimiento 1m
+    100008: cimiento concao
+    100010: cimiento convexo
+    100012: Cimientos esq. Concava
+    100014: Cimientos Esq. Convexa
+    100016: columna
+    100018: columna 1
+    100020: escalera 1 x 0.5m
+    100022: escalera 1m x 0.5m
+    100024: Esquina Concava
+    100026: esquina concava
+    100028: esquina convexa
+    100030: esquina convexa 1
+    100032: fin techo der B
+    100034: fin techo der. A
+    100036: fin techo izq B
+    100038: fin techo izq. A
+    100040: fin techo medio A
+    100042: fin techo medio B
+    100044: lateral techo 3m der.
+    100046: lateral techo 3m izq.
+    100048: Object
+    100050: Object002
+    100052: Object004
+    100054: Object006
+    100056: Object008
+    100058: Object010
+    100060: Object012
+    100062: Object014
+    100064: Object016
+    100066: Object018
+    100068: Object020
+    100070: Object022
+    100072: Object024
+    100074: Object026
+    100076: Object028
+    100078: Object030
+    100080: Object032
+    100082: Object034
+    100084: Object036
+    100086: Object038
+    100088: Object040
+    100090: Object042
+    100092: Object044
+    100094: Object046
+    100096: Object048
+    100098: Object050
+    100100: Object052
+    100102: Object054
+    100104: pared 1.5m
+    100106: Pared 1.5m Simple
+    100108: Pared 1.5m Simple001
+    100110: pared 1m simple
+    100112: pared 2m
+    100114: pared 2m simple
+    100116: pared de techo der. 3m
+    100118: Pared de techo izq. 3m
+    100120: //RootNode
+    100122: pared simple 1m
+    100124: pared simple 2m
+    100126: pared simple1.5m
+    100128: Plane024
+    100130: Plane025
+    100132: Plane034
+    100134: Plane037
+    100136: Plane038
+    100138: puerta 1.5m madera
+    100140: puerta doble 2m
+    100142: puerta doble 2m 1
+    100144: puerta madera 1.5m
+    100146: suelo  1 x 1m
+    100148: suelo 1 x 0.5m
+    100150: suelo 1mx0.5m
+    100152: suelo 1mx1m
+    100154: Techo 3m
+    100156: techo 3m
+    100158: techo centro A
+    100160: techo centro B
+    100162: techo esq. der. A
+    100164: techo esq. der. B
+    100166: Techo Esq. izq. A
+    100168: techo esq. izq. B
+    100170: ventan 2m
+    100172: ventana 1.5m
+    100174: 'Ventana 1.5m '
+    100176: ventana 1m
+    100178: ventana 1m 1
+    100180: ventana 2m
+    400000: chimenea
+    400002: chimenea 1
+    400004: Cimiento 1m
+    400006: cimiento 1m
+    400008: cimiento concao
+    400010: cimiento convexo
+    400012: Cimientos esq. Concava
+    400014: Cimientos Esq. Convexa
+    400016: columna
+    400018: columna 1
+    400020: escalera 1 x 0.5m
+    400022: escalera 1m x 0.5m
+    400024: Esquina Concava
+    400026: esquina concava
+    400028: esquina convexa
+    400030: esquina convexa 1
+    400032: fin techo der B
+    400034: fin techo der. A
+    400036: fin techo izq B
+    400038: fin techo izq. A
+    400040: fin techo medio A
+    400042: fin techo medio B
+    400044: lateral techo 3m der.
+    400046: lateral techo 3m izq.
+    400048: Object
+    400050: Object002
+    400052: Object004
+    400054: Object006
+    400056: Object008
+    400058: Object010
+    400060: Object012
+    400062: Object014
+    400064: Object016
+    400066: Object018
+    400068: Object020
+    400070: Object022
+    400072: Object024
+    400074: Object026
+    400076: Object028
+    400078: Object030
+    400080: Object032
+    400082: Object034
+    400084: Object036
+    400086: Object038
+    400088: Object040
+    400090: Object042
+    400092: Object044
+    400094: Object046
+    400096: Object048
+    400098: Object050
+    400100: Object052
+    400102: Object054
+    400104: pared 1.5m
+    400106: Pared 1.5m Simple
+    400108: Pared 1.5m Simple001
+    400110: pared 1m simple
+    400112: pared 2m
+    400114: pared 2m simple
+    400116: pared de techo der. 3m
+    400118: Pared de techo izq. 3m
+    400120: //RootNode
+    400122: pared simple 1m
+    400124: pared simple 2m
+    400126: pared simple1.5m
+    400128: Plane024
+    400130: Plane025
+    400132: Plane034
+    400134: Plane037
+    400136: Plane038
+    400138: puerta 1.5m madera
+    400140: puerta doble 2m
+    400142: puerta doble 2m 1
+    400144: puerta madera 1.5m
+    400146: suelo  1 x 1m
+    400148: suelo 1 x 0.5m
+    400150: suelo 1mx0.5m
+    400152: suelo 1mx1m
+    400154: Techo 3m
+    400156: techo 3m
+    400158: techo centro A
+    400160: techo centro B
+    400162: techo esq. der. A
+    400164: techo esq. der. B
+    400166: Techo Esq. izq. A
+    400168: techo esq. izq. B
+    400170: ventan 2m
+    400172: ventana 1.5m
+    400174: 'Ventana 1.5m '
+    400176: ventana 1m
+    400178: ventana 1m 1
+    400180: ventana 2m
+    2100000: No Name
+    2300000: chimenea
+    2300002: chimenea 1
+    2300004: Cimiento 1m
+    2300006: cimiento 1m
+    2300008: cimiento concao
+    2300010: cimiento convexo
+    2300012: Cimientos esq. Concava
+    2300014: Cimientos Esq. Convexa
+    2300016: columna
+    2300018: columna 1
+    2300020: escalera 1 x 0.5m
+    2300022: escalera 1m x 0.5m
+    2300024: Esquina Concava
+    2300026: esquina concava
+    2300028: esquina convexa
+    2300030: esquina convexa 1
+    2300032: fin techo der B
+    2300034: fin techo der. A
+    2300036: fin techo izq B
+    2300038: fin techo izq. A
+    2300040: fin techo medio A
+    2300042: fin techo medio B
+    2300044: lateral techo 3m der.
+    2300046: lateral techo 3m izq.
+    2300048: Object
+    2300050: Object002
+    2300052: Object004
+    2300054: Object006
+    2300056: Object008
+    2300058: Object010
+    2300060: Object012
+    2300062: Object014
+    2300064: Object016
+    2300066: Object018
+    2300068: Object020
+    2300070: Object022
+    2300072: Object024
+    2300074: Object026
+    2300076: Object028
+    2300078: Object030
+    2300080: Object032
+    2300082: Object034
+    2300084: Object036
+    2300086: Object038
+    2300088: Object040
+    2300090: Object042
+    2300092: Object044
+    2300094: Object046
+    2300096: Object048
+    2300098: Object050
+    2300100: Object052
+    2300102: Object054
+    2300104: pared 1.5m
+    2300106: Pared 1.5m Simple
+    2300108: Pared 1.5m Simple001
+    2300110: pared 1m simple
+    2300112: pared 2m
+    2300114: pared 2m simple
+    2300116: pared de techo der. 3m
+    2300118: Pared de techo izq. 3m
+    2300120: pared simple 1m
+    2300122: pared simple 2m
+    2300124: pared simple1.5m
+    2300126: Plane024
+    2300128: Plane025
+    2300130: puerta 1.5m madera
+    2300132: puerta doble 2m
+    2300134: puerta doble 2m 1
+    2300136: puerta madera 1.5m
+    2300138: suelo  1 x 1m
+    2300140: suelo 1 x 0.5m
+    2300142: suelo 1mx0.5m
+    2300144: suelo 1mx1m
+    2300146: Techo 3m
+    2300148: techo 3m
+    2300150: techo centro A
+    2300152: techo centro B
+    2300154: techo esq. der. A
+    2300156: techo esq. der. B
+    2300158: Techo Esq. izq. A
+    2300160: techo esq. izq. B
+    2300162: ventan 2m
+    2300164: ventana 1.5m
+    2300166: 'Ventana 1.5m '
+    2300168: ventana 1m
+    2300170: ventana 1m 1
+    2300172: ventana 2m
+    3300000: chimenea
+    3300002: chimenea 1
+    3300004: Cimiento 1m
+    3300006: cimiento 1m
+    3300008: cimiento concao
+    3300010: cimiento convexo
+    3300012: Cimientos esq. Concava
+    3300014: Cimientos Esq. Convexa
+    3300016: columna
+    3300018: columna 1
+    3300020: escalera 1 x 0.5m
+    3300022: escalera 1m x 0.5m
+    3300024: Esquina Concava
+    3300026: esquina concava
+    3300028: esquina convexa
+    3300030: esquina convexa 1
+    3300032: fin techo der B
+    3300034: fin techo der. A
+    3300036: fin techo izq B
+    3300038: fin techo izq. A
+    3300040: fin techo medio A
+    3300042: fin techo medio B
+    3300044: lateral techo 3m der.
+    3300046: lateral techo 3m izq.
+    3300048: Object
+    3300050: Object002
+    3300052: Object004
+    3300054: Object006
+    3300056: Object008
+    3300058: Object010
+    3300060: Object012
+    3300062: Object014
+    3300064: Object016
+    3300066: Object018
+    3300068: Object020
+    3300070: Object022
+    3300072: Object024
+    3300074: Object026
+    3300076: Object028
+    3300078: Object030
+    3300080: Object032
+    3300082: Object034
+    3300084: Object036
+    3300086: Object038
+    3300088: Object040
+    3300090: Object042
+    3300092: Object044
+    3300094: Object046
+    3300096: Object048
+    3300098: Object050
+    3300100: Object052
+    3300102: Object054
+    3300104: pared 1.5m
+    3300106: Pared 1.5m Simple
+    3300108: Pared 1.5m Simple001
+    3300110: pared 1m simple
+    3300112: pared 2m
+    3300114: pared 2m simple
+    3300116: pared de techo der. 3m
+    3300118: Pared de techo izq. 3m
+    3300120: pared simple 1m
+    3300122: pared simple 2m
+    3300124: pared simple1.5m
+    3300126: Plane024
+    3300128: Plane025
+    3300130: puerta 1.5m madera
+    3300132: puerta doble 2m
+    3300134: puerta doble 2m 1
+    3300136: puerta madera 1.5m
+    3300138: suelo  1 x 1m
+    3300140: suelo 1 x 0.5m
+    3300142: suelo 1mx0.5m
+    3300144: suelo 1mx1m
+    3300146: Techo 3m
+    3300148: techo 3m
+    3300150: techo centro A
+    3300152: techo centro B
+    3300154: techo esq. der. A
+    3300156: techo esq. der. B
+    3300158: Techo Esq. izq. A
+    3300160: techo esq. izq. B
+    3300162: ventan 2m
+    3300164: ventana 1.5m
+    3300166: 'Ventana 1.5m '
+    3300168: ventana 1m
+    3300170: ventana 1m 1
+    3300172: ventana 2m
+    4300000: esquina convexa
+    4300002: columna
+    4300004: Esquina Concava
+    4300006: chimenea
+    4300008: Pared 1.5m Simple
+    4300010: pared 2m simple
+    4300012: pared 1m simple
+    4300014: Plane024
+    4300016: Plane025
+    4300018: 'Ventana 1.5m '
+    4300020: ventan 2m
+    4300022: ventana 1m
+    4300024: puerta 1.5m madera
+    4300026: puerta doble 2m
+    4300028: suelo 1mx1m
+    4300030: suelo 1mx0.5m
+    4300032: Cimiento 1m
+    4300034: Cimientos Esq. Convexa
+    4300036: Cimientos esq. Concava
+    4300038: escalera 1m x 0.5m
+    4300040: Techo 3m
+    4300042: techo esq. der. A
+    4300044: Pared de techo izq. 3m
+    4300046: pared de techo der. 3m
+    4300048: techo esq. izq. B
+    4300050: Techo Esq. izq. A
+    4300052: techo centro A
+    4300054: techo centro B
+    4300056: techo esq. der. B
+    4300058: Pared 1.5m Simple001
+    4300060: fin techo der B
+    4300062: pared simple1.5m
+    4300064: pared simple 2m
+    4300066: pared simple 1m
+    4300068: pared 1.5m
+    4300070: pared 2m
+    4300072: ventana 1m
+    4300074: ventana 2m
+    4300076: ventana 1.5m
+    4300078: puerta madera 1.5m
+    4300080: puerta doble 2m
+    4300082: suelo  1 x 1m
+    4300084: suelo 1 x 0.5m
+    4300086: cimiento convexo
+    4300088: cimiento 1m
+    4300090: cimiento concao
+    4300092: escalera 1 x 0.5m
+    4300094: chimenea
+    4300096: esquina concava
+    4300098: esquina convexa
+    4300100: columna
+    4300102: fin techo izq. A
+    4300104: fin techo medio A
+    4300106: fin techo der. A
+    4300108: techo 3m
+    4300110: lateral techo 3m izq.
+    4300112: lateral techo 3m der.
+    4300114: fin techo izq B
+    4300116: fin techo medio B
+    4300118: Object
+    4300120: Object002
+    4300122: Object004
+    4300124: Object006
+    4300126: Object008
+    4300128: Object010
+    4300130: Object012
+    4300132: Object014
+    4300134: Object016
+    4300136: Object018
+    4300138: Object020
+    4300140: Object022
+    4300142: Object024
+    4300144: Object026
+    4300146: Object028
+    4300148: Object030
+    4300150: Object032
+    4300152: Object034
+    4300154: Object036
+    4300156: Object038
+    4300158: Object040
+    4300160: Object042
+    4300162: Object044
+    4300164: Object046
+    4300166: Object048
+    4300168: Object050
+    4300170: Object052
+    4300172: Object054
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 0b1df498908cf9c40b91ce8f044d8336, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
